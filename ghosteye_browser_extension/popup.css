@@ -1,0 +1,191 @@
+body {
+  margin: 0;
+  width: 460px;
+  min-height: 640px;
+  font-family: Arial, sans-serif;
+  background: #0b1220;
+  color: #e5e7eb;
+}
+
+.container {
+  padding: 14px;
+}
+
+.header {
+  margin-bottom: 12px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 22px;
+}
+
+.header p {
+  margin: 4px 0 0;
+  color: #94a3b8;
+  font-size: 12px;
+}
+
+button {
+  width: 100%;
+  border: 0;
+  border-radius: 8px;
+  padding: 11px 14px;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  background: #38bdf8;
+  color: #082f49;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: wait;
+}
+
+.status {
+  margin: 10px 0;
+  color: #94a3b8;
+  font-size: 12px;
+}
+
+
+/* =========================================
+   CARDS
+========================================= */
+
+.card {
+  background: #111827;
+  border: 1px solid #1f2937;
+  border-radius: 9px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  margin: 0 0 8px;
+  font-size: 13px;
+}
+
+
+/* =========================================
+   SCREENSHOT CANVAS
+========================================= */
+
+#screenCanvas {
+  display: block;
+  width: 100%;
+  max-height: 280px;
+  object-fit: contain;
+
+  border-radius: 7px;
+
+  background: #020617;
+}
+
+
+/* =========================================
+   TWO-COLUMN INFORMATION AREA
+========================================= */
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+#imageType {
+  font-size: 12px;
+  margin-bottom: 7px;
+}
+
+#imageSummary {
+  margin: 0;
+  color: #94a3b8;
+  font-size: 11px;
+  line-height: 1.4;
+}
+
+#objectCount,
+#uiCount,
+#textCount {
+  margin-top: 5px;
+  color: #94a3b8;
+  font-size: 11px;
+}
+
+
+/* =========================================
+   SENSITIVE INFORMATION
+========================================= */
+
+.list {
+  font-size: 11px;
+  line-height: 1.5;
+}
+
+.list.empty {
+  color: #94a3b8;
+}
+
+.sensitive-item {
+  margin-top: 7px;
+  padding: 7px;
+
+  border: 1px solid #374151;
+  border-radius: 6px;
+}
+
+.sensitive-item strong {
+  display: block;
+  margin-bottom: 3px;
+}
+
+.sensitive-item span {
+  color: #94a3b8;
+}
+
+
+/* =========================================
+   DESCRIPTION
+========================================= */
+
+.description {
+  margin: 0;
+  padding-left: 22px;
+
+  max-height: 280px;
+  overflow-y: auto;
+
+  font-size: 11px;
+  line-height: 1.5;
+}
+
+.description li {
+  margin-bottom: 5px;
+}
+
+
+/* =========================================
+   RAW JSON
+========================================= */
+
+pre {
+  margin: 0;
+  padding: 8px;
+
+  max-height: 280px;
+  overflow: auto;
+
+  white-space: pre-wrap;
+  word-break: break-word;
+
+  border-radius: 7px;
+
+  background: #020617;
+
+  color: #cbd5e1;
+
+  font-size: 10px;
+  line-height: 1.4;
+}

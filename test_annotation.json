@@ -1,0 +1,331 @@
+{
+  "image_type": "application UI",
+  "short_summary": "A Paytm payment receipt showing a successful transaction of Rs 50,000 to Sk Nasir Hossain.",
+  "detailed_description": [
+    "The image displays a mobile application screenshot of a Paytm payment receipt.",
+    "At the top center, the blue Paytm logo is prominently displayed along with the text 'PAYMENT RECEIPT'.",
+    "Below the header, a light blue card indicates a successful transaction.",
+    "The card prominently features the text 'Payment Successful' at the top.",
+    "The transaction amount '₹50,000' is displayed in large bold font.",
+    "A green verified checkmark icon is located to the right of the amount.",
+    "Below the amount, the text 'Rupees Fifty Thousand Only' is written in a smaller font.",
+    "A white paper-like receipt section sits below the blue card with a jagged bottom edge.",
+    "The receipt contains 'To: Sk Nasir Hossain' as the recipient name.",
+    "Under the recipient name, the bank details 'State Bank Of India - 1037' are shown.",
+    "A dashed horizontal line separates the recipient and sender details.",
+    "The sender is listed as 'From: S E Interior'.",
+    "Under the sender name, the bank details 'ICICI Bank - 1319' are displayed.",
+    "An 'i' icon is placed near the sender details section.",
+    "A circular placeholder button is present near the recipient details.",
+    "The 'UPI Ref ID: 318129955340' is clearly printed towards the bottom of the receipt.",
+    "The transaction timestamp '30 Jun, 01:14 PM' is displayed below the UPI Ref ID.",
+    "At the bottom of the main white container, a security badge icon is shown alongside the text '100% SECURE PAYMENTS'.",
+    "At the very bottom of the screen, the 'POWERED BY UPI' logo is centered.",
+    "The overall background of the screen is a very light off-white/gray color.",
+    "The UI uses clean sans-serif typography throughout.",
+    "The color palette consists of white, light blue, dark blue, green, and neutral grays.",
+    "The layout is structured vertically, resembling a digital physical receipt.",
+    "Shadows are subtly used to give depth to the cards and elements.",
+    "The alignment of all elements is centered within the main container view.",
+    "The top blue card features rounded corners.",
+    "The receipt edges mimic a traditional perforated paper receipt at the bottom.",
+    "The branding colors reflect Paytm's official corporate identity (blue and white).",
+    "Text contrast is high, ensuring good legibility against backgrounds.",
+    "There are no visible scrollbars or navigation bars present in this specific view."
+  ],
+  "ui_elements": [
+    {
+      "type": "image",
+      "label": "Paytm Logo",
+      "bbox": [
+        404,
+        52,
+        608,
+        102
+      ],
+      "confidence": 0.99
+    },
+    {
+      "type": "image",
+      "label": "Success Checkmark Icon",
+      "bbox": [
+        651,
+        244,
+        738,
+        294
+      ],
+      "confidence": 0.99
+    },
+    {
+      "type": "image",
+      "label": "Sender Bank Logo",
+      "bbox": [
+        816,
+        613,
+        893,
+        663
+      ],
+      "confidence": 0.95
+    },
+    {
+      "type": "button",
+      "label": "Recipient Info Button",
+      "bbox": [
+        802,
+        473,
+        900,
+        528
+      ],
+      "confidence": 0.9
+    },
+    {
+      "type": "image",
+      "label": "Security Shield Icon",
+      "bbox": [
+        263,
+        868,
+        321,
+        907
+      ],
+      "confidence": 0.99
+    },
+    {
+      "type": "image",
+      "label": "Powered by UPI Logo",
+      "bbox": [
+        443,
+        929,
+        574,
+        968
+      ],
+      "confidence": 0.99
+    }
+  ],
+  "objects": [
+    {
+      "object_type": "card",
+      "name": "Payment Success Card",
+      "description": "Light blue card indicating successful transaction and amount",
+      "bbox": [
+        58,
+        149,
+        959,
+        401
+      ],
+      "confidence": 0.98
+    },
+    {
+      "object_type": "receipt",
+      "name": "Transaction Receipt",
+      "description": "White receipt container displaying transaction parties and reference ID",
+      "bbox": [
+        58,
+        431,
+        955,
+        822
+      ],
+      "confidence": 0.98
+    }
+  ],
+  "visible_text": [
+    {
+      "text": "Paytm",
+      "text_type": "heading",
+      "bbox": [
+        404,
+        52,
+        608,
+        92
+      ],
+      "confidence": 0.99
+    },
+    {
+      "text": "PAYMENT RECEIPT",
+      "text_type": "label",
+      "bbox": [
+        384,
+        104,
+        631,
+        117
+      ],
+      "confidence": 0.99
+    },
+    {
+      "text": "Payment Successful",
+      "text_type": "heading",
+      "bbox": [
+        283,
+        188,
+        733,
+        214
+      ],
+      "confidence": 0.99
+    },
+    {
+      "text": "₹50,000",
+      "text_type": "heading",
+      "bbox": [
+        285,
+        252,
+        631,
+        288
+      ],
+      "confidence": 0.99
+    },
+    {
+      "text": "Rupees Fifty Thousand Only",
+      "text_type": "paragraph",
+      "bbox": [
+        297,
+        323,
+        718,
+        342
+      ],
+      "confidence": 0.98
+    },
+    {
+      "text": "To: Sk Nasir Hossain",
+      "text_type": "paragraph",
+      "bbox": [
+        118,
+        477,
+        523,
+        498
+      ],
+      "confidence": 0.99
+    },
+    {
+      "text": "State Bank Of India - 1037",
+      "text_type": "paragraph",
+      "bbox": [
+        119,
+        513,
+        508,
+        533
+      ],
+      "confidence": 0.98
+    },
+    {
+      "text": "From: S E Interior",
+      "text_type": "paragraph",
+      "bbox": [
+        118,
+        609,
+        461,
+        630
+      ],
+      "confidence": 0.98
+    },
+    {
+      "text": "ICICI Bank - 1319",
+      "text_type": "paragraph",
+      "bbox": [
+        118,
+        646,
+        376,
+        664
+      ],
+      "confidence": 0.98
+    },
+    {
+      "text": "UPI Ref ID: 318129955340",
+      "text_type": "paragraph",
+      "bbox": [
+        118,
+        715,
+        517,
+        732
+      ],
+      "confidence": 0.98
+    },
+    {
+      "text": "30 Jun, 01:14 PM",
+      "text_type": "paragraph",
+      "bbox": [
+        118,
+        743,
+        378,
+        760
+      ],
+      "confidence": 0.98
+    },
+    {
+      "text": "100% SECURE PAYMENTS",
+      "text_type": "heading",
+      "bbox": [
+        353,
+        881,
+        755,
+        896
+      ],
+      "confidence": 0.99
+    }
+  ],
+  "sensitive_information": [
+    {
+      "category": "personal name",
+      "description": "Recipient full name",
+      "detected_text": "Sk Nasir Hossain",
+      "bbox": [
+        190,
+        479,
+        523,
+        498
+      ],
+      "confidence": 0.99,
+      "needs_redaction": true
+    },
+    {
+      "category": "business name",
+      "description": "Sender business name",
+      "detected_text": "S E Interior",
+      "bbox": [
+        245,
+        609,
+        461,
+        630
+      ],
+      "confidence": 0.98,
+      "needs_redaction": true
+    },
+    {
+      "category": "bank account numbers",
+      "description": "Recipient bank account last digits",
+      "detected_text": "State Bank Of India - 1037",
+      "bbox": [
+        119,
+        513,
+        508,
+        533
+      ],
+      "confidence": 0.98,
+      "needs_redaction": true
+    },
+    {
+      "category": "bank account numbers",
+      "description": "Sender bank account last digits",
+      "detected_text": "ICICI Bank - 1319",
+      "bbox": [
+        118,
+        646,
+        376,
+        664
+      ],
+      "confidence": 0.98,
+      "needs_redaction": true
+    },
+    {
+      "category": "transaction ID",
+      "description": "UPI Reference ID for the payment",
+      "detected_text": "318129955340",
+      "bbox": [
+        291,
+        715,
+        517,
+        732
+      ],
+      "confidence": 0.98,
+      "needs_redaction": true
+    }
+  ]
+}

@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1"
+  >
+
+  <title>GhostEye</title>
+
+  <link
+    rel="stylesheet"
+    href="popup.css"
+  >
+</head>
+
+
+<body>
+
+  <main class="container">
+
+    <!-- =================================================
+         HEADER
+    ================================================== -->
+
+    <header class="header">
+
+      <div>
+        <h1>GhostEye</h1>
+
+        <p>
+          Visual perception for browser agents
+        </p>
+      </div>
+
+    </header>
+
+
+    <!-- =================================================
+         ANALYZE BUTTON
+    ================================================== -->
+
+    <button id="analyzeBtn">
+      Analyze Current Tab
+    </button>
+
+
+    <!-- =================================================
+         STATUS
+    ================================================== -->
+
+    <div
+      id="status"
+      class="status"
+    >
+      Ready
+    </div>
+
+
+    <!-- =================================================
+         SCREENSHOT + BOUNDING BOXES
+    ================================================== -->
+
+    <section class="card">
+
+      <h2>
+        Visual Analysis
+      </h2>
+
+      <canvas
+        id="screenCanvas"
+      ></canvas>
+
+    </section>
+
+
+    <!-- =================================================
+         BASIC IMAGE INFORMATION
+    ================================================== -->
+
+    <div class="grid">
+
+      <section class="card">
+
+        <h2>
+          Image Type
+        </h2>
+
+        <div id="imageType">
+          —
+        </div>
+
+        <p id="imageSummary">
+          No image analyzed yet.
+        </p>
+
+      </section>
+
+
+      <section class="card">
+
+        <h2>
+          Detection
+        </h2>
+
+        <div id="objectCount">
+          Objects: 0
+        </div>
+
+        <div id="uiCount">
+          UI Elements: 0
+        </div>
+
+        <div id="textCount">
+          Text: 0
+        </div>
+
+      </section>
+
+    </div>
+
+
+    <!-- =================================================
+         SENSITIVE INFORMATION
+    ================================================== -->
+
+    <section class="card">
+
+      <h2>
+        Sensitive Information
+      </h2>
+
+      <div
+        id="sensitiveList"
+        class="list empty"
+      >
+        None detected.
+      </div>
+
+    </section>
+
+
+    <!-- =================================================
+         DETAILED DESCRIPTION
+    ================================================== -->
+    <section class="card">
+
+  <h2>UI Elements</h2>
+
+  <div
+    id="uiElementList"
+    class="list empty"
+  >
+    No UI elements detected.
+  </div>
+
+</section>
+
+
+<section class="card">
+
+  <h2>Detected Objects</h2>
+
+  <div
+    id="objectList"
+    class="list empty"
+  >
+    No objects detected.
+  </div>
+
+</section>
+
+
+<section class="card">
+
+  <h2>Visible Text</h2>
+
+  <div
+    id="textList"
+    class="list empty"
+  >
+    No text detected.
+  </div>
+
+</section>
+
+    <section class="card">
+
+      <h2>
+        Detailed Description
+      </h2>
+
+      <ol
+        id="descriptionList"
+        class="description"
+      >
+      </ol>
+
+    </section>
+
+
+    <!-- =================================================
+         RAW JSON
+    ================================================== -->
+
+    <section class="card">
+
+      <h2>
+        Raw JSON
+      </h2>
+
+      <pre id="result">
+No analysis yet.
+      </pre>
+
+    </section>
+
+  </main>
+
+
+  <!-- ===================================================
+       JAVASCRIPT
+  ==================================================== -->
+
+  <script src="popup.js"></script>
+
+</body>
+
+</html>
