@@ -124,7 +124,7 @@ The planned privacy-preserving architecture is:
               Browser Action
 
 📁 Project Structure
-C:\Riaz
+C:\
 │
 ├── ghosteye_api.py
 ├── server.py
